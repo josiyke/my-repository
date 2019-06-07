@@ -1,0 +1,337 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#container{
+    width: 100%;
+    margin: 0 auto;
+    font-family: serif;
+}
+/*.......    ..........*/
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/gomez-home-1.jpg);
+  color: white;
+  background-position: center;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: auto;
+}
+    .Left-header{
+       float: left;
+       margin-left: 40px;
+       margin-top: 25px;
+    }
+    .Right-header{
+      float: right;
+      margin-top: 30px;
+    }
+    .Right-header ul li{
+      margin: 10px;
+      display: inline-block;
+    }
+
+     ul li.Active a{
+    	background-color: #3c3c3c;
+    	color: red;
+      border: 1px solid white;
+    }
+    .Right-header ul li a{
+      text-decoration: none;
+      color: white;
+      border: 2px solid transparent;
+      letter-spacing:2px;
+      padding: 20px;
+      border: 1px solid #fff;
+      border-radius: 10px;
+    }
+    ul li a:hover{
+      background: black;
+      color: red;
+      font-weight: bold;
+      transition: 0.6s ease;
+    }
+    .title{
+      position: absolute;
+      top: 37%;
+      left: 30%;
+      transform: translate(-50,-50);
+    }
+    .title2{
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      transform: translate(-50,-50);
+    }
+    .title2 h3{
+      word-spacing: 2px;
+      letter-spacing: 2px;
+      color: yellow;
+      text-decoration-style: solid;
+      text-decoration: underline;
+      text-transform: capitalize;
+    }
+    .title h1{
+      color: #fff;
+      font-size: 60px;
+      font-style: italic;
+    }
+    .button{
+      width: 45%;
+      border: 1px solid #787878;
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      transform: translate(-50,-50);
+      background-color: rgba(50,50,70,0.5);
+      padding: 20px;
+      border-radius: 11px;
+      margin: 5px;
+    }
+    .button h6{
+      font-size: 20px;
+      text-align: center;
+    }
+    /*..... form styling.....*/
+    input[type=text]{
+         width: 50%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         border-radius: 10px;
+         transition: width 0.4s ease-in-out;
+         border: 2px solid darkblue;
+    }
+    input[type=text]:focus{
+         background-color: lightblue;
+         border: 1px solid black;
+    }
+    input[type=submit]{
+         width: 30%;
+         padding: 12px 20px;
+         border-radius: 10px;
+         background-color: rgba(255, 0, 0, 0.3);
+         text-transform: capitalize;
+         font-weight: bold;
+         color: #ffff;
+    }
+    input[type=submit]:hover{
+      background-color: #3c3c3c;
+      transition: 0.6s ease;
+    }
+    input{
+      text-transform: capitalize;
+      color: blue;
+    }
+    input[type=checkbox]{
+        width: 3%;
+    }
+    input[type=reset]{
+      width: 10%;
+      border: 1px solid #fff;
+      background: darkgray;
+      color: black;
+      padding: 10px;
+      margin: 3px;
+      border-radius: 10px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    input[type=reset]:hover{
+      background: #fff;
+      color: black;
+      text-decoration: underline;s
+    }
+  /*..... form styling Ends here.....*/
+
+
+    .button-two{
+      position: absolute;
+      top: 80%;
+      left: 40%;
+      transform: translate(-50,-50);
+    }
+    .button-two a{
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 10px 30px;
+      margin: 5px;
+      border-radius: 15px;
+    }
+    .button-two a:hover{
+      background-color: gray;
+      color: black;
+    }
+    .two{
+      background-color:  rgba(20, 100, 150, 0.3);
+    }
+
+
+
+/*........main style......*/
+main{
+  width: 100%;
+}
+.image img{
+  height: 900px;
+  overflow: hidden;
+}
+.img_block img{
+  height: 250px;
+  border: 2px solid white;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.img_block img:hover{
+  animation: img_animation 2s;
+  opacity: 0.5;
+}
+@keyframes img_animation{
+  from{width: 90%}
+  to{width: 110%}
+}
+.article_title{
+   font-weight: bold;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+   text-align: center;
+   font-size: 30px;
+   margin-top: 10px;
+   padding: 10px;
+   box-shadow: 10px 10px gray;
+   background: linear-gradient(-90deg, blue, #fff, green);
+}
+.article_description{
+   font-style: italic;
+   padding: 20px;
+   word-spacing: 4px;
+   font-family: serif;
+   font-size: 15px;
+}
+clearfix{
+  clear: both;
+}
+.first_section{
+  width: 100%;
+  overflow: auto;
+}
+.right_article,.middle_article,.center_article,.left_article{
+   width: 22%;
+   float: left;
+   height: auto;
+   padding: 10px;
+   margin-right: 5px;
+   margin-top: 20px;
+}
+h2{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  color: gray;
+}
+/*.........sectiont two styling begings....*/
+.second_section{
+  background-color:  rgba(20, 100, 150, 0.8);
+  width: 100%
+  height: 100%;
+  margin-bottom: 10px;
+  background-size: 100%;
+}
+.second_section h2{
+   line-height: 150px;
+   color: white;
+}
+.second_section h2:hover{
+   text-decoration: underline;
+}
+.Left_side img{
+  float: left;
+  width: 43%;
+  height: 100%;
+  border: 5px solid gray;
+  border-radius: 40px;
+  margin-left: 100px;
+}
+.Right_side{
+  color: #fff;
+  width: 30%;
+  float: right;
+  padding: 10px 30px;
+  border-radius: 40px;
+  border: 4px solid gray;
+  background-color: black;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+.section{
+  overflow: auto;
+}
+/*..footer styling stars here....*/
+footer{
+  background-color: gray;
+}
+.Left_footer{
+  text-align: center;
+}
+.Right-footer{
+  text-align: center;
+}
+.Right-footer ul li{
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border-right: 1px solid #fff;
+}
+.Right-footer ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+.Right-footer ul li a:hover{
+  color: red;
+  background-color: black;
+  padding: 10px;
+}
+.para{
+  text-align: center;
+}
+.para p{
+  margin-bottom: 5px;
+}
+.p{
+  font-size: 20px;
+  color: #fff;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  text-shadow: 2px 4px 0px black;
+}
+.first_para{
+  width: 100%;
+  border: 1px solid black;
+  background-color: rgb(20, 100, 150);
+  position: fixe;
+  padding: 45px;
+  text-align: center;
+}
+.side-link a{
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin-left: 45px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.side-link a:hover{
+  color: black;
+  background: #fff;
+  transition: 0.6s ease;
+}
+div.first_para{
+  position: sticky;
+  bottom: 0px;
+  top: 0px;
+  width: 100%;
+  height: 0px;
+}

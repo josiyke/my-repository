@@ -1,0 +1,132 @@
+/*{
+margin: 0px;
+padding: 0px;
+background-image: url("pictures/IMG_20180812_175715.jpg")!important;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}*/
+.google-header{
+  width: 100%;
+  max-height: 50px;
+  font-family: sans-serif;
+  float: right;
+}
+.google-header img{
+  border-radius: 100% !important;
+  max-width:100%;
+}
+.gmail-img img{
+  border-radius: 100%;
+  width: 25px;
+  margin-right: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.gmail-img img:hover{
+  background-color: rgb(220, 220, 220);
+  padding: 3px;
+}
+.header-icons a{
+  float: right;
+  margin-right: 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.header-icons a:hover{
+  color: gray;
+}
+.google-search{
+  font-family: serif;
+  padding: 5px;
+  font-size: 12px;
+}
+.goolgle-image img{
+  width: 250px;
+  margin: 100px auto 10px;
+}
+.input-group{
+  margin: 13px auto 10px;
+  border-radius: 25px;
+  max-width: 600px;
+  padding: 5px;
+  background-color: #f5f5f5;
+}
+.form-control{
+  border-radius: 20px !important;
+  border: none !important;
+  background-color: #f5f5f5!important;
+
+}
+.form-control:focus{
+  box-shadow: none!important;
+}
+.Bookmarks{
+  font-family: sans-serif;
+  width: 550px;
+  margin-top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  display: block;
+}
+.col-md-3{
+  width: 120px !important;
+  padding: none !important;
+}
+.site{
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+}
+.site:hover{
+  background-color: rgba(240, 240, 240, 0.5) !important;
+  cursor: pointer;
+}
+.site p{
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-top: 12px;
+  text-align: center;
+}
+.site img{
+  text-align: center;
+  margin-left: 35px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #f0f0f0 !important;
+}
+.search-button img{
+  background: blue !important;
+  border: none !important;
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.button{
+  margin-left: 40%;
+  margin-top: 15px;
+}
+.button a{
+    border: 1px solid DarkCyan;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    color: DarkCyan;
+    text-decoration: none;
+
+}
+.button a:hover{
+  color: white;
+  background-color: DarkCyan;
+  border: none;
+  text-decoration: none;
+  margin-top: 5px;
+  transition: 0.6s ease;
+}
